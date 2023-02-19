@@ -4,7 +4,7 @@
   "description": "https://www.linkedin.com/learning/building-restful-apis-with-node-js-and-express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/malikchettih/api-learning-resources/issues"
   },
-  "homepage": "https://github.com/malikchettih/api-learning-resources#readme"
+  "homepage": "https://github.com/malikchettih/api-learning-resources#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
