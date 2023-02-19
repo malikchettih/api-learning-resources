@@ -1,0 +1,25 @@
+{
+  "name": "linkedin-building-restful-apis-with-node-js-and-express",
+  "version": "1.0.0",
+  "description": "https://www.linkedin.com/learning/building-restful-apis-with-node-js-and-express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikchettih/api-learning-resources.git"
+  },
+  "keywords": [
+    "API",
+    "Rest",
+    "Nodejs",
+    "Express"
+  ],
+  "author": "malik.chettih@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malikchettih/api-learning-resources/issues"
+  },
+  "homepage": "https://github.com/malikchettih/api-learning-resources#readme"
+}
